@@ -1,0 +1,267 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1e1e1e;
+}
+header {
+  background-color: #fff8f3;
+  background: url(images/developer.png), url(images/header_bg.png), #fff8f3;
+  background-repeat: no-repeat;
+  background-position: 23px 38px, bottom right;
+  padding-top: 50px;
+}
+nav {
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid red; */
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 45px;
+  font-weight: 900;
+}
+.logo-r {
+  color: #fd6e0a;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 51px;
+  align-items: center;
+}
+.menu li a {
+  font-size: 20px;
+  color: #474747;
+  text-decoration: none;
+}
+.btn {
+  background-color: #fd6e0a;
+  font-size: 20px;
+  color: white;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.ctn {
+  color: #FD6E0A;
+    background-color: white;
+  font-size: 20px;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1.5px solid #FD6E0A;
+}
+.btnctn{
+    gap:30px;
+    display:flex;
+}
+
+.section-heading {
+  max-width: 827px;
+  text-align: center;
+  margin: 0px auto;
+}
+.section-heading h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.section-heading p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #757575;
+  line-height: 30px;
+  font-weight: regular;
+}
+.banner {
+  /* border: 1px solid blue; */
+  margin: 47px 38px 0px 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  max-width: 585px;
+  /* margin-left: 230px; */
+}
+.banner-content h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+.banner-content h1 {
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.banner-content p {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 32px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.banner-image img{
+  max-width: 584px;
+  vertical-align: middle;
+
+}
+
+.about,
+#skills,
+#resume {
+  /* margin-top: 100px; */
+  padding-top: 130px;
+}
+.about-contrainer {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0px auto;
+  background-color: #fff8f3;
+  text-align: center;
+  padding: 131px 156px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info .info-card p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
+.about-info .info-card h4 {
+  font-size: 20px;
+}
+
+.skills-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+.skill-box {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 24px;
+}
+.skill-card {
+  padding: 30px;
+  max-width: 267px;
+  box-shadow: 0 6px 50px 0 #00000029;
+}
+
+.skill-card img {
+  max-width: 44px;
+  margin-bottom: 30px;
+}
+.skill-card h3 {
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skill-card p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+#resume .resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+#resume .resume-container .section-title {
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.resume-card {
+  max-width: 511px;
+  margin-right: 47px;
+}
+
+.resume-card .card-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #474747;
+}
+
+.resume-card .card-info {
+  font-size: 20px;
+  font-weight: semi-bold;
+  margin-bottom: 20px;
+  color: #474747;
+}
+
+.resume-card .card-text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+.resume-container hr {
+  margin: 30px 0;
+}
+.text-center {
+  text-align: center;
+}
+
+footer {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  padding: 130px 0;
+}
+footer .footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0px auto;
+  display: flex;
+  gap: 116px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-container .social {
+  max-width: 562px;
+}
+footer .footer-container h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #181818;
+}
+footer .footer-container .social p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.footer-container .social .icons a {
+  margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+input[type="email"],
+textarea {
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  width: 461px;
+  color: #757575;
+}
