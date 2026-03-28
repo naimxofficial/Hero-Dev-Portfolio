@@ -51,18 +51,18 @@ nav {
   cursor: pointer;
 }
 .ctn {
-  color: #FD6E0A;
-    background-color: white;
+  color: #fd6e0a;
+  background-color: white;
   font-size: 20px;
   border: none;
   padding: 18px 35px;
   border-radius: 5px;
   cursor: pointer;
-  border: 1.5px solid #FD6E0A;
+  border: 1.5px solid #fd6e0a;
 }
-.btnctn{
-    gap:30px;
-    display:flex;
+.btnctn {
+  gap: 30px;
+  display: flex;
 }
 
 .section-heading {
@@ -112,10 +112,9 @@ nav {
   line-height: 30px;
   margin-bottom: 30px;
 }
-.banner-image img{
+.banner-image img {
   max-width: 584px;
   vertical-align: middle;
-
 }
 
 .about,
